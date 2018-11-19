@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/creocoder/yii2-flysystem
+ * @link https://github.com/mazpaijo/yii2-flysystem
  * @copyright Copyright (c) 2015 Alexander Kochetov
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace creocoder\flysystem;
+namespace mazpaijo\flysystem;
 
 use Mazpaijo\Flysystem\Sftp\SftpAdapter;
 use Yii;
@@ -14,7 +14,7 @@ use yii\base\InvalidConfigException;
 /**
  * SftpFilesystem
  *
- * @author Alexander Kochetov <creocoder@gmail.com>
+ * @author Alexander Kochetov <mazpaijo@gmail.com>
  */
 class SftpFilesystem extends Filesystem
 {

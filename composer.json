@@ -1,5 +1,5 @@
 {
-    "name": "creocoder/yii2-flysystem",
+    "name": "mazpaijo/yii2-flysystem",
     "description": "The flysystem extension for the Yii framework",
     "keywords": [
         "yii2",
@@ -22,7 +22,7 @@
     "authors": [
         {
             "name": "Alexander Kochetov",
-            "email": "creocoder@gmail.com"
+            "email": "mazpaijo@gmail.com"
         }
     ],
     "require": {
@@ -50,7 +50,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "creocoder\\flysystem\\": "src"
+            "mazpaijo\\flysystem\\": "src"
         }
     }
 }
