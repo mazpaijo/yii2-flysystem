@@ -7,7 +7,7 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\Rackspace\RackspaceAdapter;
+use Mazpaijo\Flysystem\Rackspace\RackspaceAdapter;
 use OpenCloud\Rackspace;
 use yii\base\InvalidConfigException;
 

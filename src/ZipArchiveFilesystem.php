@@ -7,7 +7,7 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\ZipArchive\ZipArchiveAdapter;
+use Mazpaijo\Flysystem\ZipArchive\ZipArchiveAdapter;
 use Yii;
 use yii\base\InvalidConfigException;
 

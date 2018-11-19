@@ -8,7 +8,7 @@
 namespace creocoder\flysystem;
 
 use Barracuda\Copy\API;
-use League\Flysystem\Copy\CopyAdapter;
+use Mazpaijo\Flysystem\Copy\CopyAdapter;
 use yii\base\InvalidConfigException;
 
 /**

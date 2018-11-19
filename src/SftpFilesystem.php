@@ -7,7 +7,7 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\Sftp\SftpAdapter;
+use Mazpaijo\Flysystem\Sftp\SftpAdapter;
 use Yii;
 use yii\base\InvalidConfigException;
 

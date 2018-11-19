@@ -7,7 +7,7 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\Cached\Storage\AbstractCache;
+use Mazpaijo\Flysystem\Cached\Storage\AbstractCache;
 use yii\caching\Cache;
 
 /**

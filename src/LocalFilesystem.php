@@ -7,7 +7,7 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\Adapter\Local;
+use Mazpaijo\Flysystem\Adapter\Local;
 use Yii;
 use yii\base\InvalidConfigException;
 

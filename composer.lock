@@ -250,7 +250,7 @@
             "time": "2013-11-30 08:25:19"
         },
         {
-            "name": "league/flysystem",
+            "name": "mazpaijo/flysystem",
             "version": "1.0.16",
             "source": {
                 "type": "git",
@@ -267,7 +267,7 @@
                 "php": ">=5.4.0"
             },
             "conflict": {
-                "league/flysystem-sftp": "<1.0.6"
+                "mazpaijo/flysystem-sftp": "<1.0.6"
             },
             "require-dev": {
                 "ext-fileinfo": "*",
@@ -278,17 +278,17 @@
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
-                "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
-                "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
-                "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
-                "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
-                "league/flysystem-copy": "Allows you to use Copy.com storage",
-                "league/flysystem-dropbox": "Allows you to use Dropbox storage",
-                "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
-                "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
-                "league/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
-                "league/flysystem-webdav": "Allows you to use WebDAV storage",
-                "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter"
+                "mazpaijo/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
+                "mazpaijo/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
+                "mazpaijo/flysystem-azure": "Allows you to use Windows Azure Blob storage",
+                "mazpaijo/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
+                "mazpaijo/flysystem-copy": "Allows you to use Copy.com storage",
+                "mazpaijo/flysystem-dropbox": "Allows you to use Dropbox storage",
+                "mazpaijo/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
+                "mazpaijo/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
+                "mazpaijo/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
+                "mazpaijo/flysystem-webdav": "Allows you to use WebDAV storage",
+                "mazpaijo/flysystem-ziparchive": "Allows you to use ZipArchive adapter"
             },
             "type": "library",
             "extra": {
@@ -298,7 +298,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\": "src/"
+                    "Mazpaijo\\Flysystem\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -937,7 +937,7 @@
             "time": "2016-01-23 01:23:02"
         },
         {
-            "name": "league/flysystem-aws-s3-v3",
+            "name": "mazpaijo/flysystem-aws-s3-v3",
             "version": "1.0.9",
             "source": {
                 "type": "git",
@@ -952,7 +952,7 @@
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0.0",
-                "league/flysystem": "~1.0",
+                "mazpaijo/flysystem": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -967,7 +967,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\AwsS3v3\\": "src/"
+                    "Mazpaijo\\Flysystem\\AwsS3v3\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -984,7 +984,7 @@
             "time": "2015-11-19 08:44:16"
         },
         {
-            "name": "league/flysystem-azure",
+            "name": "mazpaijo/flysystem-azure",
             "version": "1.0.2",
             "source": {
                 "type": "git",
@@ -998,7 +998,7 @@
                 "shasum": ""
             },
             "require": {
-                "league/flysystem": "~1.0",
+                "mazpaijo/flysystem": "~1.0",
                 "microsoft/windowsazure": "~0.4.0",
                 "pear-pear.php.net/http_request2": "*",
                 "pear-pear.php.net/mail_mime": "*",
@@ -1017,7 +1017,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\Azure\\": "src/"
+                    "Mazpaijo\\Flysystem\\Azure\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1034,7 +1034,7 @@
             "time": "2015-07-07 19:21:10"
         },
         {
-            "name": "league/flysystem-cached-adapter",
+            "name": "mazpaijo/flysystem-cached-adapter",
             "version": "1.0.2",
             "source": {
                 "type": "git",
@@ -1048,7 +1048,7 @@
                 "shasum": ""
             },
             "require": {
-                "league/flysystem": "~1.0"
+                "mazpaijo/flysystem": "~1.0"
             },
             "require-dev": {
                 "henrikbjorn/phpspec-code-coverage": "~1.0@dev",
@@ -1064,7 +1064,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\Cached\\": "src/"
+                    "Mazpaijo\\Flysystem\\Cached\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1081,7 +1081,7 @@
             "time": "2015-07-09 21:00:39"
         },
         {
-            "name": "league/flysystem-copy",
+            "name": "mazpaijo/flysystem-copy",
             "version": "1.0.3",
             "source": {
                 "type": "git",
@@ -1096,7 +1096,7 @@
             },
             "require": {
                 "barracuda/copy": "~1.1",
-                "league/flysystem": "~1.0",
+                "mazpaijo/flysystem": "~1.0",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -1111,7 +1111,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\Copy\\": "src/"
+                    "Mazpaijo\\Flysystem\\Copy\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1128,7 +1128,7 @@
             "time": "2015-03-29 11:47:26"
         },
         {
-            "name": "league/flysystem-dropbox",
+            "name": "mazpaijo/flysystem-dropbox",
             "version": "1.0.1",
             "source": {
                 "type": "git",
@@ -1143,7 +1143,7 @@
             },
             "require": {
                 "dropbox/dropbox-sdk": "~1.1",
-                "league/flysystem": "~1.0",
+                "mazpaijo/flysystem": "~1.0",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -1157,7 +1157,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\Dropbox\\": "src/"
+                    "Mazpaijo\\Flysystem\\Dropbox\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1174,7 +1174,7 @@
             "time": "2015-12-19 13:50:27"
         },
         {
-            "name": "league/flysystem-gridfs",
+            "name": "mazpaijo/flysystem-gridfs",
             "version": "1.0.0",
             "source": {
                 "type": "git",
@@ -1188,7 +1188,7 @@
                 "shasum": ""
             },
             "require": {
-                "league/flysystem": "~1.0",
+                "mazpaijo/flysystem": "~1.0",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -1203,7 +1203,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\GridFS\\": "src/"
+                    "Mazpaijo\\Flysystem\\GridFS\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1220,7 +1220,7 @@
             "time": "2015-01-21 22:20:08"
         },
         {
-            "name": "league/flysystem-rackspace",
+            "name": "mazpaijo/flysystem-rackspace",
             "version": "1.0.3",
             "source": {
                 "type": "git",
@@ -1234,7 +1234,7 @@
                 "shasum": ""
             },
             "require": {
-                "league/flysystem": "~1.0",
+                "mazpaijo/flysystem": "~1.0",
                 "php": ">=5.4.0",
                 "rackspace/php-opencloud": "~1.12"
             },
@@ -1250,7 +1250,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\Rackspace\\": "src/"
+                    "Mazpaijo\\Flysystem\\Rackspace\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1267,7 +1267,7 @@
             "time": "2015-09-15 11:00:00"
         },
         {
-            "name": "league/flysystem-replicate-adapter",
+            "name": "mazpaijo/flysystem-replicate-adapter",
             "version": "1.0.1",
             "source": {
                 "type": "git",
@@ -1281,7 +1281,7 @@
                 "shasum": ""
             },
             "require": {
-                "league/flysystem": "~1.0",
+                "mazpaijo/flysystem": "~1.0",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -1296,7 +1296,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\Replicate\\": "src/"
+                    "Mazpaijo\\Flysystem\\Replicate\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1313,7 +1313,7 @@
             "time": "2015-08-18 21:07:17"
         },
         {
-            "name": "league/flysystem-sftp",
+            "name": "mazpaijo/flysystem-sftp",
             "version": "1.0.8",
             "source": {
                 "type": "git",
@@ -1327,7 +1327,7 @@
                 "shasum": ""
             },
             "require": {
-                "league/flysystem": "~1.0",
+                "mazpaijo/flysystem": "~1.0",
                 "php": ">=5.4.0",
                 "phpseclib/phpseclib": "~2.0"
             },
@@ -1343,7 +1343,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\Sftp\\": "src/"
+                    "Mazpaijo\\Flysystem\\Sftp\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1360,7 +1360,7 @@
             "time": "2015-12-08 14:46:21"
         },
         {
-            "name": "league/flysystem-webdav",
+            "name": "mazpaijo/flysystem-webdav",
             "version": "1.0.1",
             "source": {
                 "type": "git",
@@ -1374,7 +1374,7 @@
                 "shasum": ""
             },
             "require": {
-                "league/flysystem": "~1.0",
+                "mazpaijo/flysystem": "~1.0",
                 "php": ">=5.4.0",
                 "sabre/dav": "~2.0"
             },
@@ -1390,7 +1390,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\WebDAV\\": "src"
+                    "Mazpaijo\\Flysystem\\WebDAV\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1407,7 +1407,7 @@
             "time": "2015-05-18 19:55:15"
         },
         {
-            "name": "league/flysystem-ziparchive",
+            "name": "mazpaijo/flysystem-ziparchive",
             "version": "1.0.2",
             "source": {
                 "type": "git",
@@ -1421,7 +1421,7 @@
                 "shasum": ""
             },
             "require": {
-                "league/flysystem": "~1.0@alpha",
+                "mazpaijo/flysystem": "~1.0@alpha",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -1436,7 +1436,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\ZipArchive\\": "src/"
+                    "Mazpaijo\\Flysystem\\ZipArchive\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

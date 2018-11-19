@@ -8,7 +8,7 @@
 namespace creocoder\flysystem;
 
 use Dropbox\Client;
-use League\Flysystem\Dropbox\DropboxAdapter;
+use Mazpaijo\Flysystem\Dropbox\DropboxAdapter;
 use yii\base\InvalidConfigException;
 
 /**

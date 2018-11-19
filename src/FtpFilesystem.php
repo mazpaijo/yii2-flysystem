@@ -7,7 +7,7 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\Adapter\Ftp;
+use Mazpaijo\Flysystem\Adapter\Ftp;
 use Yii;
 use yii\base\InvalidConfigException;
 

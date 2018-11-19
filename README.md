@@ -92,13 +92,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-aws-s3-v3
+$ composer require mazpaijo/flysystem-aws-s3-v3
 ```
 
 or add
 
 ```
-"league/flysystem-aws-s3-v3": "~1.0"
+"mazpaijo/flysystem-aws-s3-v3": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure application `components` as follows
@@ -138,13 +138,13 @@ Add the following to the `repositories` section of your `composer.json`
 Either run
 
 ```bash
-$ composer require league/flysystem-azure
+$ composer require mazpaijo/flysystem-azure
 ```
 
 or add
 
 ```
-"league/flysystem-azure": "~1.0"
+"mazpaijo/flysystem-azure": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure application `components` as follows
@@ -169,13 +169,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-copy
+$ composer require mazpaijo/flysystem-copy
 ```
 
 or add
 
 ```
-"league/flysystem-copy": "~1.0"
+"mazpaijo/flysystem-copy": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure application `components` as follows
@@ -202,13 +202,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-dropbox
+$ composer require mazpaijo/flysystem-dropbox
 ```
 
 or add
 
 ```
-"league/flysystem-dropbox": "~1.0"
+"mazpaijo/flysystem-dropbox": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure application `components` as follows
@@ -260,13 +260,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-gridfs
+$ composer require mazpaijo/flysystem-gridfs
 ```
 
 or add
 
 ```
-"league/flysystem-gridfs": "~1.0"
+"mazpaijo/flysystem-gridfs": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure application `components` as follows
@@ -290,13 +290,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-rackspace
+$ composer require mazpaijo/flysystem-rackspace
 ```
 
 or add
 
 ```
-"league/flysystem-rackspace": "~1.0"
+"mazpaijo/flysystem-rackspace": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure application `components` as follows
@@ -324,13 +324,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-sftp
+$ composer require mazpaijo/flysystem-sftp
 ```
 
 or add
 
 ```
-"league/flysystem-sftp": "~1.0"
+"mazpaijo/flysystem-sftp": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure application `components` as follows
@@ -361,13 +361,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-webdav
+$ composer require mazpaijo/flysystem-webdav
 ```
 
 or add
 
 ```
-"league/flysystem-webdav": "~1.0"
+"mazpaijo/flysystem-webdav": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure application `components` as follows
@@ -396,13 +396,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-ziparchive
+$ composer require mazpaijo/flysystem-ziparchive
 ```
 
 or add
 
 ```
-"league/flysystem-ziparchive": "~1.0"
+"mazpaijo/flysystem-ziparchive": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure application `components` as follows
@@ -426,13 +426,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-cached-adapter
+$ composer require mazpaijo/flysystem-cached-adapter
 ```
 
 or add
 
 ```
-"league/flysystem-cached-adapter": "~1.0"
+"mazpaijo/flysystem-cached-adapter": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure `fsID` application component as follows
@@ -457,13 +457,13 @@ return [
 Either run
 
 ```bash
-$ composer require league/flysystem-replicate-adapter
+$ composer require mazpaijo/flysystem-replicate-adapter
 ```
 
 or add
 
 ```
-"league/flysystem-replicate-adapter": "~1.0"
+"mazpaijo/flysystem-replicate-adapter": "~1.0"
 ```
 
 to the `require` section of your `composer.json` file and configure `fsID` application component as follows
@@ -493,7 +493,7 @@ return [
         'fsID' => [
             //...
             'config' => [
-                'visibility' => \League\Flysystem\AdapterInterface::VISIBILITY_PRIVATE,
+                'visibility' => \Mazpaijo\Flysystem\AdapterInterface::VISIBILITY_PRIVATE,
             ],
         ],
     ],
@@ -646,7 +646,7 @@ Yii::$app->fs->deleteDir('path/to/filename.ext');
 Visibility is the abstraction of file permissions across multiple platforms. Visibility can be either public or private.
 
 ```php
-use League\Flysystem\AdapterInterface;
+use Mazpaijo\Flysystem\AdapterInterface;
 
 Yii::$app->fs->write('filename.ext', 'contents', [
     'visibility' => AdapterInterface::VISIBILITY_PRIVATE
@@ -656,7 +656,7 @@ Yii::$app->fs->write('filename.ext', 'contents', [
 You can also change and check visibility of existing files
 
 ```php
-use League\Flysystem\AdapterInterface;
+use Mazpaijo\Flysystem\AdapterInterface;
 
 if (Yii::$app->fs->getVisibility('filename.ext') === AdapterInterface::VISIBILITY_PRIVATE) {
     Yii::$app->fs->setVisibility('filename.ext', AdapterInterface::VISIBILITY_PUBLIC);

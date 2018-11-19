@@ -7,7 +7,7 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\Adapter\NullAdapter;
+use Mazpaijo\Flysystem\Adapter\NullAdapter;
 
 /**
  * NullFilesystem

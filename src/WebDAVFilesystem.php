@@ -7,7 +7,7 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\WebDAV\WebDAVAdapter;
+use Mazpaijo\Flysystem\WebDAV\WebDAVAdapter;
 use Sabre\DAV\Client;
 use yii\base\InvalidConfigException;
 

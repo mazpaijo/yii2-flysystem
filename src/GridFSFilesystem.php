@@ -7,7 +7,7 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\GridFS\GridFSAdapter;
+use Mazpaijo\Flysystem\GridFS\GridFSAdapter;
 use MongoClient;
 use yii\base\InvalidConfigException;
 

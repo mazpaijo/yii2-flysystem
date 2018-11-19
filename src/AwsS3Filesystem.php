@@ -8,7 +8,7 @@
 namespace creocoder\flysystem;
 
 use Aws\S3\S3Client;
-use League\Flysystem\AwsS3v3\AwsS3Adapter;
+use Mazpaijo\Flysystem\AwsS3v3\AwsS3Adapter;
 use yii\base\InvalidConfigException;
 
 /**

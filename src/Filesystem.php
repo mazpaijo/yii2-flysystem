@@ -7,10 +7,10 @@
 
 namespace creocoder\flysystem;
 
-use League\Flysystem\AdapterInterface;
-use League\Flysystem\Cached\CachedAdapter;
-use League\Flysystem\Filesystem as NativeFilesystem;
-use League\Flysystem\Replicate\ReplicateAdapter;
+use Mazpaijo\Flysystem\AdapterInterface;
+use Mazpaijo\Flysystem\Cached\CachedAdapter;
+use Mazpaijo\Flysystem\Filesystem as NativeFilesystem;
+use Mazpaijo\Flysystem\Replicate\ReplicateAdapter;
 use Yii;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
@@ -19,16 +19,16 @@ use yii\caching\Cache;
 /**
  * Filesystem
  *
- * @method \League\Flysystem\FilesystemInterface addPlugin(\League\Flysystem\PluginInterface $plugin)
+ * @method \Mazpaijo\Flysystem\FilesystemInterface addPlugin(\Mazpaijo\Flysystem\PluginInterface $plugin)
  * @method void assertAbsent(string $path)
  * @method void assertPresent(string $path)
  * @method boolean copy(string $path, string $newpath)
  * @method boolean createDir(string $dirname, array $config = null)
  * @method boolean delete(string $path)
  * @method boolean deleteDir(string $dirname)
- * @method \League\Flysystem\Handler get(string $path, \League\Flysystem\Handler $handler = null)
- * @method \League\Flysystem\AdapterInterface getAdapter()
- * @method \League\Flysystem\Config getConfig()
+ * @method \Mazpaijo\Flysystem\Handler get(string $path, \Mazpaijo\Flysystem\Handler $handler = null)
+ * @method \Mazpaijo\Flysystem\AdapterInterface getAdapter()
+ * @method \Mazpaijo\Flysystem\Config getConfig()
  * @method array|false getMetadata(string $path)
  * @method string|false getMimetype(string $path)
  * @method integer|false getSize(string $path)
@@ -57,7 +57,7 @@ use yii\caching\Cache;
 abstract class Filesystem extends Component
 {
     /**
-     * @var \League\Flysystem\Config|array|string|null
+     * @var \Mazpaijo\Flysystem\Config|array|string|null
      */
     public $config;
     /**
@@ -77,7 +77,7 @@ abstract class Filesystem extends Component
      */
     public $replica;
     /**
-     * @var \League\Flysystem\FilesystemInterface
+     * @var \Mazpaijo\Flysystem\FilesystemInterface
      */
     protected $filesystem;
 
@@ -129,7 +129,7 @@ abstract class Filesystem extends Component
     }
 
     /**
-     * @return \League\Flysystem\FilesystemInterface
+     * @return \Mazpaijo\Flysystem\FilesystemInterface
      */
     public function getFilesystem()
     {
